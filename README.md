@@ -13,5 +13,6 @@ Plugin 'ymattw/vim-fold-paragraph'
 ## Example usage
 
 ```
+set foldmethod=manual
 nmap <Space> :call ToggleFoldParagraph()<CR>
 ```

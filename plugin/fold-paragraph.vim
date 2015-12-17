@@ -1,6 +1,7 @@
 " A simple plugin to toggle fold a paragraph with better foldtext
 "
 " Example usage:
+"   set foldmethod=manual
 "   nmap <Space> :call ToggleFoldParagraph<CR>
 
 function! ToggleFoldParagraph()
