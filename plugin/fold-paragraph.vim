@@ -1,7 +1,6 @@
 " A simple plugin to toggle fold a paragraph with better foldtext
 "
 " Example usage:
-"   set foldtext=FoldedParagraphText()
 "   nmap <Space> :call ToggleFoldParagraph<CR>
 
 function! ToggleFoldParagraph()
@@ -22,3 +21,5 @@ function! FoldedParagraphText()
     let padding = repeat("-", width - strwidth(sizestr.line.percentage))
     return line . padding . sizestr . percentage
 endf
+
+silent! set foldtext=FoldedParagraphText()
