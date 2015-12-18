@@ -5,11 +5,11 @@
 "   nmap <Space> :call ToggleFoldParagraph<CR>
 
 function! ToggleFoldParagraph()
-    if foldclosed('.') > -1
-        normal zo
-    else
+    try
+        normal za
+    catch
         normal zfip
-    endif
+    endtry
 endfunction
 
 function! FoldedParagraphText()
