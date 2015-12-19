@@ -10,6 +10,12 @@ Install with [Vundle](https://github.com/gmarik/Vundle):
 Plugin 'ymattw/vim-fold-paragraph'
 ```
 
+Install with [vim-plug](https://github.com/junegunn/vim-plug):
+
+```
+Plug 'ymattw/vim-fold-paragraph'
+```
+
 ## Example usage
 
 ```
